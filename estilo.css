@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.link-menu {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10%;
+    background-color: #555;
+    
+}
+    
+  
+  .f {
+    background-color: #5b305a;
+  }
+  
+  .l {
+    background-color: #e49756;
+  }
+  
+  .m {
+    background-color: #e04b5a;
+  }
+  
+  main {
+    background-color: #333;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+footer {
+    background-color: #333;
+    color: #ddd;
+  }
+
+body {
+    font-family: 'Poppins';
+    background-color: white;
+    color: #fff;
+  }
+  
+header, #principal, #second, #contato, #stream {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+  }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+nav  {
+    display: flex;
+    list-style: none;
+    gap: 15;
+    flex: 1;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+#principal {
+    gap: 70px;
+    padding: 30px;
+}
+
+#principal figure {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+#principal img {
+    width: 300px;
+}
+
+#sec_ctd {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 60px;
+    width: 700px;
+}
+
+#sec_ctd h1 {
+    display: flex;
+    flex: 1;
+    font-family: 'Amatic SC';
+    font-size: 40px;
+    justify-content: end;  
+
+  }
+  
+
+#sec_ctd p {
+    width: 450px;
+    text-align: justify;
+}
+
+
+#second {
+    
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+#second a{
+    color: #fff;
+  }
+
+
+#logo img {
+    width: 150px;
+}
+
+
+.cartaz {
+    text-decoration: none;
+}
+
+.capa {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.capa:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px;}
+
+#contato a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    flex: 1;
+    
+    
+}
+
+#social a img {
+    width: 30px;
+    margin-left: 10px;
+    transition: opacity 0.2s;
+}
+
+#social a img:hover {
+    opacity: 0.7;
+}
+
+
+#descricao{
+    margin: 100px ;
+    padding: 30px ;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+
+
+
